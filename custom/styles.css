@@ -1,4 +1,91 @@
+body {
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .field-name {
   display: none;
   visibility: hidden;
+}
+
+.header + .nav-button {
+  display: none;
+  visibility: hidden;
+}
+
+.GoogleMap {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.SpotifyPlaylist {
+}
+
+.Name,
+.Rating {
+  font-size: 24px;
+  display: inline;
+}
+
+.Rating h2 {
+  display: inline-block;
+  margin-bottom: 25px;
+  margin-right: 10px;
+}
+
+.Name {
+  margin-right: 10px;
+}
+
+.Author {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.Author::before {
+  content: "an investigation by ";
+}
+
+.TheRRReview .field-name {
+  display: block;
+  visibility: visible;
+}
+
+.TheRRReview {
+  margin-bottom: 25px;
+}
+
+.LedeImage {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.PhotoCredit {
+  font-style: italic;
+  margin-bottom: 35px;
+}
+
+.RRRSoundtrack {
+  margin-top: 15px;
+  max-width: 60%;
+  margin-bottom: 15px;
+}
+
+.RRRSoundtrack .field-name {
+  display: block;
+  visibility: visible;
+}
+
+.SpotifyPlaylist {
+  margin-bottom: 35px;
 }

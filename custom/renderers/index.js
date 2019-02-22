@@ -1,3 +1,5 @@
-// import Foo from "./Foo";
+import SpotifyPlaylist from "./SpotifyPlaylist";
+import GoogleMap from "./GoogleMap";
+import Rating from "./Rating";
 
-// export { Foo };
+export { SpotifyPlaylist, GoogleMap, Rating };
